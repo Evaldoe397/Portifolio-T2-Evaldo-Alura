@@ -1,0 +1,23 @@
+.cabecalhoPrincipal .container{
+     display:flex;
+     align-items:center;
+     justify-content: space-between;
+}
+.cabecalhoPrincipal-logo{
+     display: flex;
+}
+.cabecalhoPrincipal-nav {
+     display: flex;
+}
+
+.menuPrincipal .container{
+     display:flex;
+     align-items:center;
+     justify-content: space-between;
+}
+.menuPrincipal-texto {
+     display: flex;
+}
+.menuPrincipal- {
+     display: flex;
+}
