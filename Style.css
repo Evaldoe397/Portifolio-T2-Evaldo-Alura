@@ -1,68 +1,32 @@
-.apresentacao{
-    width: 524px;
-    height: 52px;
+body {
     font-family: 'Raleway';
     font-style: normal;
+}
+.cabecalhoPrincipal {
+    background-color: #F5F5F5;
+}
+
+.cabecalhoPrincipal-logo {
+    /* Vector */
+    color: #464646;
+    /* Preto/100% */
+    background-color: #F5F5F5;
+}
+
+.cabecalhoPrincipal-home {
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 16px;
+    /* identical to box height */
     /* Preto/100% */
     color: #464646;
     /* Inside auto layout */
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    background: #F5F5F5;
+    margin: 0 12 0 0;
 }
-.portifolio-foto{
-    width: 368px;
-    height: 368px;
-    background: url(evaldo1.jpg);
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-ul {
-    display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-.home{
-    width: 524px;
-    height: 52px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    /* Preto/100% */
-    color: #464646;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-}
-.texto{
-    width: 751px;
-    height: 52px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    /* Preto/100% */
-    color: #464646;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-}
-li{
-    /* Sobre mim */
-    width: 82px;
-    height: 19px;
+
+.cabecalhoPrincipal-nav {
+    width: auto;
+    height: 12px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
@@ -75,33 +39,51 @@ li{
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin: 0 0 0 10;
+ }
+
+.cabecalhoPrincipal-nav-link {
+    padding: 0 0 0 10px;
 }
-.home{
-    width: 102px;
-    height: 19px;
-    font-family: 'Raleway';
-    font-style: normal;
+
+.menuPrincipal-apresentacao {
+    width: 751px;
+    height: 122px;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+    font-size: 52px;
+    line-height: 61px;
+    /* Preto/100% */
+    color: #464646;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.menuPrincipal-texto{
+    width: 751px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
     /* Preto/100% */
     color: #464646;
     /* Inside auto layout */
     flex: none;
     order: 1;
+    align-self: stretch;
     flex-grow: 0;
-    background: #F5F5F5;
 }
-.estrela{
-    /* Vector */
-    position: relative;
-    float:left;
-    left: 1.17%;
-    right: 29.17%;
-    top: 16.67%;
-    bottom: 16.67%;
-    /* Preto/100% */
+
+.portifolio-foto{
+    width: 368px;
+    height: 368px;
+    background: url(evaldo1.jpg);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-color: #fff;
 }
 .sobremim{
     /* Frame 6 */
